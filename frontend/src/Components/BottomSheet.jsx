@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import styles from "./BottomSheet.module.css";
 import DropDown from "./DropDown";
 import {BiSolidDownArrow,BiSolidRightArrow} from "react-icons/bi"
@@ -9,15 +9,15 @@ export default function BottomSheet(){
     let fullyOpen;
     console.log(window.innerHeight)
     if(window.innerHeight <= 700){
-        closed = "35vh";
+        closed = "20vh";
         halfOpen = "50vh";
-        fullyOpen = "70vh";
+        fullyOpen = "75vh";
     }else if (window.innerHeight <=1100){
-        closed = "48vh";
+        closed = "35vh";
         halfOpen = "60vh";
         fullyOpen = "80vh";
     }else{
-        closed = "65vh";
+        closed = "60vh";
         halfOpen = "75vh";
         fullyOpen = "85vh"
     }
