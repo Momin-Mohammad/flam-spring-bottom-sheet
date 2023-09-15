@@ -11,6 +11,6 @@ A simple implementation app for Spring Bottom Sheet
 4. The design is made responsive.
 
 ## How to run the application locally on your system?
-1. Clone this repository in your system by running the command, git clone https://github.com/Momin-Mohammad/flam-spring-bottom-sheet.
-2. Go to the directory i.e. frontend
-3. Run the command "npm start". The application will start on your browser.
+1. Clone this repository in your system by running the command - git clone https://github.com/Momin-Mohammad/flam-spring-bottom-sheet.git
+3. Go to the directory i.e. frontend
+4. Run the command "npm start". The application will start on your browser.
